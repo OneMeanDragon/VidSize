@@ -56,11 +56,11 @@ EXSTYLE WS_EX_APPWINDOW
 CAPTION "Video Size"
 FONT 8, "MS Sans Serif", 400, 0, 0x0
 BEGIN
-    LTEXT           "Select video playback size.",IDC_STATIC,13,13,74,8
+    LTEXT           "Select video playback size:",IDC_STATIC,13,13,93,8
     CONTROL         "Small (320x240)",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,13,26,66,10
     CONTROL         "Large (640x480)",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,13,39,67,10
-    PUSHBUTTON      "Ok",IDC_BUTTON1,105,15,56,13
-    PUSHBUTTON      "Cancel",IDC_BUTTON2,105,36,56,13
+    PUSHBUTTON      "Ok",IDC_BUTTON1,111,15,56,13
+    PUSHBUTTON      "Cancel",IDC_BUTTON2,111,36,56,13
 END
 
 
